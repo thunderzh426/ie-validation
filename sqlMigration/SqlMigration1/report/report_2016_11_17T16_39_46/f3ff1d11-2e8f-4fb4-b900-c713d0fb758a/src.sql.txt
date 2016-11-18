@@ -1,0 +1,8 @@
+CREATE TABLE `crf` (
+  `crf_id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `html_id` varchar(500) NOT NULL,
+  `frame_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`crf_id`),
+  UNIQUE KEY `name_UNIQUE` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8

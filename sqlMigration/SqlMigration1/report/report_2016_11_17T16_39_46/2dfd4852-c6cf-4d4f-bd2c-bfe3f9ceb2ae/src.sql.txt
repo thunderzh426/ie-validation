@@ -1,0 +1,5 @@
+CREATE TABLE `crf_element` (
+  `crf_id` int(11) NOT NULL,
+  `element_id` int(11) NOT NULL,
+  PRIMARY KEY (`crf_id`,`element_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

@@ -1,0 +1,11 @@
+CREATE TABLE `frame_instance_document` (
+  `frame_instance_id` int(11) DEFAULT NULL,
+  `document_id` int(11) DEFAULT NULL,
+  `document_table` varchar(500) DEFAULT NULL,
+  `document_namespace` varchar(500) DEFAULT NULL,
+  `document_key` varchar(500) DEFAULT NULL,
+  `document_text_column` varchar(500) DEFAULT NULL,
+  `document_name` varchar(500) DEFAULT NULL,
+  `document_order` int(11) DEFAULT NULL,
+  `document_features` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

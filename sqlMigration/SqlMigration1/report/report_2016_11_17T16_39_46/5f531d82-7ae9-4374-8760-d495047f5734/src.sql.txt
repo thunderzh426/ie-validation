@@ -1,0 +1,16 @@
+CREATE TABLE `annotation` (
+  `id` int(11) NOT NULL,
+  `document_namespace` varchar(500) NOT NULL,
+  `document_table` varchar(500) NOT NULL,
+  `document_id` int(11) NOT NULL,
+  `document_name` varchar(100) DEFAULT NULL,
+  `annotation_type` varchar(500) DEFAULT NULL,
+  `start` int(11) DEFAULT NULL,
+  `end` int(11) DEFAULT NULL,
+  `value` text,
+  `features` text,
+  `provenance` varchar(500) DEFAULT NULL,
+  `score` double DEFAULT '1',
+  KEY `idx_annot_type` (`annotation_type`(255)),
+  KEY `idx_annot_start` (`start`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

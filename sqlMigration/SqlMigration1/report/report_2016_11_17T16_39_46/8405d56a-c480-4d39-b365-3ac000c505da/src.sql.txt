@@ -1,0 +1,5 @@
+CREATE TABLE `crf_project_frame_instance` (
+  `crf_project_id` int(11) NOT NULL,
+  `frame_instance_id` int(11) NOT NULL,
+  PRIMARY KEY (`crf_project_id`,`frame_instance_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

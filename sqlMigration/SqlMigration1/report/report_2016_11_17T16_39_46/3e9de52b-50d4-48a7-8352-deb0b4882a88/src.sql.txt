@@ -1,0 +1,9 @@
+CREATE TABLE `documents` (
+  `document_id` bigint(20) NOT NULL,
+  `name` varchar(500) DEFAULT NULL,
+  `doc_text` text,
+  `date` datetime DEFAULT NULL,
+  `author` varchar(100) DEFAULT NULL,
+  `mrn` int(11) DEFAULT NULL,
+  PRIMARY KEY (`document_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

@@ -1,0 +1,16 @@
+CREATE TABLE `frame_instance_data` (
+  `frame_instance_id` int(11) NOT NULL,
+  `slot_id` int(11) NOT NULL,
+  `value` text,
+  `section_slot_number` int(11) DEFAULT '0',
+  `element_slot_number` int(11) DEFAULT '0',
+  `document_namespace` varchar(500) DEFAULT NULL,
+  `document_table` varchar(500) DEFAULT NULL,
+  `document_id` int(11) DEFAULT NULL,
+  `annotation_id` int(11) DEFAULT NULL,
+  `annotation_namespace` varchar(500) DEFAULT NULL,
+  `element_id` int(11) DEFAULT NULL,
+  `v_scroll_pos` int(11) DEFAULT NULL,
+  `scroll_height` int(11) DEFAULT NULL,
+  `scroll_width` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

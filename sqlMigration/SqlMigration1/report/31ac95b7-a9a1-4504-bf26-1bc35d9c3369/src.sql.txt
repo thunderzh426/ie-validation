@@ -1,0 +1,6 @@
+CREATE TABLE `frame_instance_document_history` (
+  `frame_instance_id` int(11) DEFAULT NULL,
+  `document_namespace` varchar(500) DEFAULT NULL,
+  `document_table` varchar(500) DEFAULT NULL,
+  `document_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

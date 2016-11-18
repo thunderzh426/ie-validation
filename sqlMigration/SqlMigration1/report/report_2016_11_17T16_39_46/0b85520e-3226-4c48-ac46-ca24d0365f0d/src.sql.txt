@@ -1,0 +1,6 @@
+CREATE TABLE `frame_instance` (
+  `frame_instance_id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(500) DEFAULT NULL,
+  `frame_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`frame_instance_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=51 DEFAULT CHARSET=utf8

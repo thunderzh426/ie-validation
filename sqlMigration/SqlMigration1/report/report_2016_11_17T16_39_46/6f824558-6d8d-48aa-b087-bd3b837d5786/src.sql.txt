@@ -1,0 +1,7 @@
+CREATE TABLE `value` (
+  `value_id` int(11) NOT NULL AUTO_INCREMENT,
+  `display_name` varchar(500) DEFAULT NULL,
+  `slot_id` int(11) DEFAULT NULL,
+  `html_id` varchar(500) NOT NULL,
+  PRIMARY KEY (`value_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=198 DEFAULT CHARSET=utf8

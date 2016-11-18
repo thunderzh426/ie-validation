@@ -1,0 +1,8 @@
+CREATE TABLE `slot` (
+  `slot_id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(500) DEFAULT NULL,
+  `annotation_type` varchar(100) DEFAULT NULL,
+  `slot_type` int(11) NOT NULL,
+  `cond` text,
+  PRIMARY KEY (`slot_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=198 DEFAULT CHARSET=utf8

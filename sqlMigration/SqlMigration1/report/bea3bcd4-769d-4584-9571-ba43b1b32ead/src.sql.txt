@@ -1,0 +1,14 @@
+CREATE TABLE `frame_instance_annotation` (
+  `id` int(11) NOT NULL,
+  `document_namespace` varchar(500) DEFAULT NULL,
+  `document_table` varchar(500) DEFAULT NULL,
+  `document_id` int(11) DEFAULT NULL,
+  `annotation_type` varchar(500) DEFAULT NULL,
+  `start` int(11) DEFAULT NULL,
+  `end` int(11) DEFAULT NULL,
+  `value` text,
+  `features` text,
+  `provenance` varchar(500) DEFAULT NULL,
+  `score` double DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

@@ -1,0 +1,10 @@
+CREATE TABLE `msa_profile` (
+  `msa_id` int(11) NOT NULL,
+  `document_namespace` varchar(500) DEFAULT NULL,
+  `document_table` varchar(500) DEFAULT NULL,
+  `group` varchar(500) DEFAULT NULL,
+  `profile` text,
+  `name` varchar(500) DEFAULT NULL,
+  `profile_type` int(11) DEFAULT NULL,
+  `annotation_type` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1

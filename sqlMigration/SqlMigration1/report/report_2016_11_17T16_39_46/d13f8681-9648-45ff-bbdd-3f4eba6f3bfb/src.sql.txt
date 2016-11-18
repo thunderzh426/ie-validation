@@ -1,0 +1,12 @@
+CREATE TABLE `element` (
+  `element_id` int(11) NOT NULL AUTO_INCREMENT,
+  `display_name` varchar(500) DEFAULT NULL,
+  `html_id` varchar(500) NOT NULL,
+  `section_id` int(11) DEFAULT NULL,
+  `repeat` int(11) DEFAULT NULL,
+  `element_type` int(11) DEFAULT NULL,
+  `data_type` int(11) DEFAULT NULL,
+  `slot_id` int(11) DEFAULT NULL,
+  `primary_key` tinyint(4) DEFAULT NULL,
+  PRIMARY KEY (`element_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=69 DEFAULT CHARSET=utf8

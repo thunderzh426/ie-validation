@@ -1,0 +1,5 @@
+CREATE TABLE `element_value` (
+  `element_id` int(11) NOT NULL,
+  `value_id` int(11) NOT NULL,
+  PRIMARY KEY (`element_id`,`value_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8

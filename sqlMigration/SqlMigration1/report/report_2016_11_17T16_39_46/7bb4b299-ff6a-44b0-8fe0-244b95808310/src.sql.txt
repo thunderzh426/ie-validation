@@ -1,0 +1,11 @@
+CREATE TABLE `msa_row` (
+  `msa_id` int(11) NOT NULL,
+  `document_namespace` varchar(500) DEFAULT NULL,
+  `document_table` varchar(500) DEFAULT NULL,
+  `group` varchar(500) DEFAULT NULL,
+  `row_id` int(11) DEFAULT NULL,
+  `base_tokens` text,
+  `filler_tokens` text,
+  `multiplicity` int(11) DEFAULT NULL,
+  `sentences` text
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
